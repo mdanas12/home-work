@@ -1,3 +1,54 @@
 body{
-    background-color: blue;
+    font-family: 'Teko', sans-serif;
+}
+.h1-tag{
+    font-size: 50px;
+    color: crimson;
+    text-transform: capitalize;
+}
+.div-area{
+    width: 50%;
+}
+.new-container{
+    display: flex;
+}
+.div-area img{
+    width: 80%;
+}
+p{
+    margin-left: 20px;
+}
+.place-holder{
+    display: flex;
+}
+.class-container{
+    width: 50%;
+}
+.head-tag{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: crimson;
+}
+.class-container img{
+    width: 80%;
+}
+.select-item{
+    font-size: 25px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: darkblue;
+}
+.tex-radio{
+    margin-bottom: 150px;
+}
+.classes-container{
+    border-left: 12px solid;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 12px 12px 13px black;
+#regular-item{
+    border-image: linear-gradient(red,blue,green);
+    border-image-slice: 1;
 }
